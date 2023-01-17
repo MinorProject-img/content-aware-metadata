@@ -4,9 +4,10 @@
 ## Usage
 - The code runs with Python 3.7 and PyTorch 1.8.
 - Install python packages: `torch, torchvision, numpy, scikit-image, opencv-python`
-- Download [the dataset](https://github.com/SamsungLabs/content-aware-metadata), which is composed of Samsung, Sony, and Olympus cameras.
+- Download [the dataset](https://ln5.sync.com/dl/9bf21ed40/z6bn94xs-uiaeij3m-rc3izeje-3epv2uz7), which is composed of Samsung, Sony, and Olympus cameras.
 - Fix the dataset path in each `.sh` file in `./scripts`.
 - Run `train_*.sh` for training, and `test_*.sh` for inference.
+- (Optional) download [pre-trained models](https://ln5.sync.com/dl/04a8d96f0/bsyyxerk-kbky25qi-wg9k4izh-vi5rri4k), and fix the model path in `test_*.sh` files in `./scripts`.
 
 ## Citation
 Please cite our paper when you use this code.
